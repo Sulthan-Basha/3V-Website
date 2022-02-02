@@ -1022,7 +1022,7 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
 /* ===================================
       About Us
   ==================================== */
-.about-sec{
+.about-sec, .stats-sec{
     padding-top: 100px;
 }
 .about-sec .about-overlay{
@@ -1032,7 +1032,7 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
     right: 0;
     bottom: 0;
     left: 60%;
-    background-color:#202020;
+    background-color:#202020; overflow:hidden;
 }
 .about-sec .services-area{
     /*background-color:#554c86;*/
@@ -1123,7 +1123,7 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
 /* Circle Progress*/
 /*-------------------------------*/
 .stats-sec .circular-wrap{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .stats-sec .circular-wrap .circle{
     position: relative;
@@ -1159,6 +1159,14 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
     font-size: 20px;
     opacity: .7;
     margin-top: 30px;
+}
+.stats-sec .circular-wrap ul {list-style:decimal-leading-zero; overflow:hidden; }
+.stats-sec .circular-wrap ul li {font-size:15px; font-weight:600; line-height:25px;}
+
+.stats-sec .circular-wrap ul li:before
+{
+    content: '☆';
+    margin: 0 1em;    /* any design */
 }
 
 /* ===================================
