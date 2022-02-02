@@ -1162,8 +1162,9 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
 }
 .stats-sec .circular-wrap ul {list-style:decimal-leading-zero; overflow:hidden; }
 .stats-sec .circular-wrap ul li {font-size:15px; font-weight:600; line-height:25px;}
+.stats-sec .circular-wrap p{font-size:15px; font-weight:600; line-height:25px;}
 
-.stats-sec .circular-wrap ul li:before
+.stats-sec .circular-wrap ul li:before, .stats-sec .circular-wrap p:before
 {
     content: '☆';
     margin: 0 1em;    /* any design */
