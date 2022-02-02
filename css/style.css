@@ -1161,8 +1161,8 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
     margin-top: 30px;
 }
 .stats-sec .circular-wrap ul {list-style:decimal-leading-zero; overflow:hidden; }
-.stats-sec .circular-wrap ul li {font-size:15px; font-weight:600; line-height:25px;}
-.stats-sec .circular-wrap p{font-size:15px; font-weight:600; line-height:25px;}
+.stats-sec .circular-wrap ul li {font-size:15px; font-weight:600; line-height:32px;}
+.stats-sec .circular-wrap p{font-size:15px; font-weight:600; margin-top:10px;}
 
 .stats-sec .circular-wrap ul li:before, .stats-sec .circular-wrap p:before
 {
